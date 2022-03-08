@@ -2,6 +2,7 @@
 :root {
     --fundo-cinza: #ddd;
     --fundo-barra: #4D41C0;
+    --text-gray: #4a4a4a;
     --white: #fff;
 }
 
@@ -42,7 +43,7 @@ nav h1 {
 
 nav a {
     font-size: 12px;
-    font-weight: 400 ;
+    font-weight: 400;
 }
 
 a, a:hover {
@@ -57,4 +58,46 @@ a, a:hover {
 
 .dsmovie-contact-container img {
     margin-right: 10px;
+}
+
+#dsmovie-card-list{
+    padding: 40px 0;
+}
+
+.dsmove-card {
+    width: 360px;
+}
+
+.dsmove-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.dsmovie-card-description {
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.dsmovie-btn, .dsmovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--fundo-barra);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
